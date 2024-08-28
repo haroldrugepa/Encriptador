@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto - Harold Ruge Prieto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <textarea id="input-text" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="buttons">
+                <button onclick="encriptar()">Encriptar</button>
+                <button onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="output-section">
+            <div id="output-text"></div>
+            <button onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Harold Ruge Prieto - 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
